@@ -1,5 +1,3 @@
-[![Build pass](https://github.com/Edel-Finance/edel-v3-core/actions/workflows/node.js.yml/badge.svg)](https://github.com/Edel-Finance/edel-v3-core/actions/workflows/node.js.yml)
-[![codecov](https://github.com/Edel-Finance/edel-v3-core/branch/main/graph/badge.svg?token=U50KN38G67)](https://codecov.io/gh/aave/aave-v3-core)
 
 ```
 ███████╗██████╗███████╗██╗
