@@ -10,7 +10,7 @@
 
 # Edel Protocol v3
 
-This repository contains the smart contracts source code and markets configuration for Aave Protocol V3. The repository uses Docker Compose and Hardhat as development environment for compilation, testing and deployment tasks.
+This repository contains the smart contracts source code and markets configuration for Edel Protocol. The repository uses Docker Compose and Hardhat as development environment for compilation, testing and deployment tasks.
 
 ## What is Edel?
 
