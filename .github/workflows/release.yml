@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   release-please:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v3
         id: release
@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v3
         if: ${{ steps.release.outputs.release_created }}
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22.23.4
           scope: '@aave'
       - run: npm run ci:clean
         if: ${{ steps.release.outputs.release_created }}

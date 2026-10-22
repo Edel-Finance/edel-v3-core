@@ -10,7 +10,7 @@
   ],
   "main": "dist/helpers/index.js",
   "engines": {
-    "node": ">=16.0.0"
+    "node": "^22.23.4"
   },
   "scripts": {
     "size": "npm run compile && npm run hardhat size-contracts",
